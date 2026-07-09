@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 
 # Load model
-model = joblib.load("model/logistic_regression.pkl")
-vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
+model = joblib.load("logistic_regression.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 st.set_page_config(
     page_title="Sentiment Analysis",
